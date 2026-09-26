@@ -1,0 +1,31 @@
+# ── Core ────────────────────────────────────────────
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+python-dotenv==1.2.3
+pydantic==2.13.5
+pydantic-settings==2.15.0
+
+# ── ML / Image ─────────────────────────────────────
+tensorflow==2.21.0
+numpy==2.5.3
+Pillow==12.3.0
+scikit-learn==1.9.1
+scikit-image==0.26.0
+
+# ── Explainability ─────────────────────────────────
+lime==0.2.0.1
+
+# ── RAG ────────────────────────────────────────────
+faiss-cpu==1.15.1
+sentence-transformers==6.1.0
+pandas==3.0.6
+torch==2.14.0
+
+# ── Gemini ─────────────────────────────────────────
+google-genai==2.24.0
+
+# ── Testing ────────────────────────────────────────
+pytest==9.1.1
+httpx==0.28.1
+tenacity==9.0.0
