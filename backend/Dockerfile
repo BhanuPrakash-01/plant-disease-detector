@@ -29,4 +29,5 @@ COPY rag/ rag/
 EXPOSE 8000
 
 # Start FastAPI with uvicorn (production)
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+# Render assigns a dynamic port via the $PORT environment variable
+CMD uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1
