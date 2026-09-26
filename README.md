@@ -150,7 +150,7 @@ plant-disease-ai/
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `GEMINI_API_KEY` | Google Gemini API key | (required) |
-| `GEMINI_MODEL` | Gemini model name | `gemini-2.5-flash` |
+| `GEMINI_MODEL` | Gemini model name | `gemini-3.1-flash-lite` |
 | `EMBEDDING_MODEL` | Sentence transformer model | `BAAI/bge-m3` |
 | `RAG_TOP_K` | Number of CABI chunks to retrieve | `5` |
 
